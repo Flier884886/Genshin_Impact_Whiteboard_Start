@@ -19,6 +19,7 @@ Launch the Seewo Whiteboard in the way of Genshin Impact.
 1. You can place a "Background.png" image file in the software, which will replace the traditional startup page of the Hisense whiteboard. Of course, if the file does not exist, the software will use the included resource file replace it.
 2. You can place a "Start.mp4" video file in the software directory, and the software will play this video in full screen when it (volume 10%, can be modified in the code), and the software also has resource files if it is missing.
 3. You can place a "Start.txt" text file in the software directory, and the software will read the text content line by line when it starts, and each line of text will be run as application. With this, you can achieve automated deployment of the environment you want, which is very popular in machines with power-off restoration.
+   
    The necessary components for the to run: the exe executable file in the "bin\Debug" directory, "AxInterop.WMPLib.dll", "Interop.WMPLib.dll", three are indispensable.
    Special note: sometimes the computer permissions are not the default administrator, and you need to run this program as an administrator to modify the Hisense interface. As for what the teacher's reaction will be, it depends on your fate (the author is not responsible if something happens!
    Usage requirements: It is free for personal or group use for research purposes, and it cannot be used for commercial purposes. If there is a commercial need, please contact the author.
