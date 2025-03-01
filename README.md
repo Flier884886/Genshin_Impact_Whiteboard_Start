@@ -9,6 +9,7 @@ Launch the Seewo Whiteboard in the way of Genshin Impact.
 1. 你可以在软件目录下放置"Background.png"图片文件，该文件将替换希沃白板传统的启动页面，当然，如果文件不存在，软件将用包含的资源文件来替换。
 2. 你可以在软件目录下放置"Start.mp4"视频文件，软件将在启动时全屏播放这个视频(音量10%，可在代码中修改)，如缺省软件也有资源文件。
 3. 你可以在软件目录下放置"StartList.txt"文本文件，软件将在启动时逐行读取文本内容，每行文本将作为一个应用程序去运行。利用此项，你可以做到自动化部署你想要的环境，在有关机还原的机器里十分吃香。
+4. 拖动课件到项目的可执行文件，最后和用希沃打开是一样的，只是增加了启动过程原神化。
    
     软件运行必备组件："bin\Debug"目录下的exe可执行文件、"AxInterop.WMPLib.dll"、"Interop.WMPLib.dll"，三者缺一不可。
     特别注意：有时电脑权限没有默认管理员，要修改希沃启动界面的话要以管理员身份运行此程序。至于老师有何反应就看诸位的造化了(出事作者概不负责！
@@ -19,7 +20,8 @@ Launch the Seewo Whiteboard in the way of Genshin Impact.
 1. You can place a "Background.png" image file in the software, which will replace the traditional startup page of the Hisense whiteboard. Of course, if the file does not exist, the software will use the included resource file replace it.
 2. You can place a "Start.mp4" video file in the software directory, and the software will play this video in full screen when it (volume 10%, can be modified in the code), and the software also has resource files if it is missing.
 3. You can place a "Start.txt" text file in the software directory, and the software will read the text content line by line when it starts, and each line of text will be run as application. With this, you can achieve automated deployment of the environment you want, which is very popular in machines with power-off restoration.
-   
+4. Drag the courseware to the project's executable file, and it will be the same as opening it with Hitevision, but with the added process launching it.
+
    The necessary components for the to run: the exe executable file in the "bin\Debug" directory, "AxInterop.WMPLib.dll", "Interop.WMPLib.dll", three are indispensable.
    Special note: sometimes the computer permissions are not the default administrator, and you need to run this program as an administrator to modify the Hisense interface. As for what the teacher's reaction will be, it depends on your fate (the author is not responsible if something happens!
    Usage requirements: It is free for personal or group use for research purposes, and it cannot be used for commercial purposes. If there is a commercial need, please contact the author.
